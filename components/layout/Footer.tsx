@@ -47,7 +47,8 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 pt-16 pb-8">
       <div className="container mx-auto px-4">
-       {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+          {/* Brand & Description */}
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Code2 className="w-8 h-8 text-blue-400" />
@@ -73,10 +74,10 @@ export default function Footer() {
                 </a>
               ))}
             </div>
-          </div> */}
+          </div>
 
           {/* Quick Links */}
-        {/*  <div>
+          <div>
             <h3 className="text-xl font-semibold mb-6 text-white">Quick Links</h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -91,10 +92,10 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div> */}
+          </div>
 
           {/* Technologies Used */}
-      {/*    <div>
+          <div>
             <h3 className="text-xl font-semibold mb-6 text-white">Built With</h3>
             <div className="flex flex-wrap gap-3">
               {technologies.map((tech) => (
@@ -108,7 +109,7 @@ export default function Footer() {
             </div>
 
           </div>
-        </div>*/}
+        </div>
         {/* Divider */}
         <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent my-8" />
 
